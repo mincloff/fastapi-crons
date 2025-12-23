@@ -22,7 +22,7 @@ jobs:
     - name: Install dependencies
       run: |
         python -m pip install --upgrade pip
-        pip install fastapi pytest  # We add pytest to run the tests
+        pip install fastapi pytest croniter  # We add pytest to run the tests
         if [ -f requirements.txt ]; then pip install -r requirements.txt; fi
 
     - name: Run tests

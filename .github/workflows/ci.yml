@@ -27,4 +27,4 @@ jobs:
 
     - name: Run tests
       run: |
-        pytest tests/test-job.py
+        pytest tests/test_job.py
